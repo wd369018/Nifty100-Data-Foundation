@@ -1,30 +1,44 @@
 # Nifty 100 Data Foundation
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP.streamlit.app)
+
 End-to-end Nifty 100 analytics platform: ETL → financial ratios → screener
 → peer analysis → valuation → interactive Streamlit dashboard → NLP
 pros/cons → cash flow intelligence → PDF report pack.
 
-## Quick Start
+## Run it live (Streamlit Community Cloud)
+
+1. The repository already contains `requirements.txt` **and the pre-built
+   database** (`db/nifty100.db`), so no setup is needed on the server.
+2. Go to **https://share.streamlit.io** (or **https://streamlit.io/cloud**)
+   and sign in with **GitHub**.
+3. Click **New app** → pick this repo → branch `main` → file
+   `src/dashboard/app.py` → **Deploy**.
+4. Streamlit builds a free URL like `https://<name>-<app>.streamlit.app`.
+5. Replace `YOUR-APP` in the badge above with that URL and push.
+
+## Quick Start (local, Windows)
+
+**Fastest way — double-click `start_dashboard.bat`** (uses the venv +
+Streamlit on **http://localhost:8501**). The database `db/nifty100.db` is
+already in the repo, so nothing else needs to run.
 
 ```bash
-# 1. Create / activate the virtual environment
+# Manual equivalent
 python -m venv venv
-venv\Scripts\activate          # Windows
-source venv/bin/activate       # Linux / Mac
-
-# 2. Install dependencies
+venv\Scripts\activate          # Windows  (source venv/bin/activate on Linux/Mac)
 pip install -r requirements.txt
-
-# 3. Rebuild the database (skip if db/nifty100.db already exists)
-python -m src.etl.load_all
-python -m src.analytics.engine
-
-# 4. Launch the dashboard
-streamlit run src/dashboard/app.py
+python -m streamlit run src/dashboard/app.py
 ```
 
 The app opens at **http://localhost:8501** with a wide layout and
 sidebar navigation.
+
+> **If localhost does not open:** activate the venv first
+> (`venv\Scripts\activate`) and run `python -m streamlit run
+> src/dashboard/app.py`; use the `.bat` files (`start_dashboard.bat`,
+> `start_api.bat`) for a one-click start. The DB in the repo is ready-made —
+> `make load` is only needed to rebuild it from raw Excel.
 
 ## Screens (8 pages)
 
@@ -60,7 +74,7 @@ Produces two artefacts in `output/`:
 ## Project Layout
 
 ```
-├── db/nifty100.db            # SQLite — companies, ratios, market cap, peer groups
+├── db/nifty100.db            # SQLite (committed, pre-built) — companies, ratios, market cap, peer groups
 ├── src/
 │   ├── etl/                  # Data ingestion & validation
 │   ├── analytics/            # Ratio engine, screener, peers, valuation, cash-flow intelligence

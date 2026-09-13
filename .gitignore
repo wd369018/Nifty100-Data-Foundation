@@ -6,7 +6,4 @@ __pycache__/
 .ruff_cache/
 .coverage
 htmlcov/
-*.db
-*.sqlite
-*.sqlite3
 output/final_deliverables/
