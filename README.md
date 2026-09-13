@@ -1,6 +1,6 @@
 # Nifty 100 Data Foundation
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nifty100-data-foundation.streamlit.app)
 
 End-to-end Nifty 100 analytics platform: ETL → financial ratios → screener
 → peer analysis → valuation → interactive Streamlit dashboard → NLP
