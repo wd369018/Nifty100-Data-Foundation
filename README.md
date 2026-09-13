@@ -10,7 +10,7 @@ pros/cons → cash flow intelligence → PDF report pack.
 
 1. The repository already contains `requirements.txt` **and the pre-built
    database** (`db/nifty100.db`), so no setup is needed on the server.
-2. Go to **https://share.streamlit.io** (or **https://streamlit.io/cloud**)
+2. Go to **https://nifty100-data-foundation.streamlit.app/** (or **https://streamlit.io/cloud**)
    and sign in with **GitHub**.
 3. Click **New app** → pick this repo → branch `main` → file
    `src/dashboard/app.py` → **Deploy**.
