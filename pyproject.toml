@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+# E402: intentional sys.path bootstrap in Streamlit pages / CLI scripts.
+# E501: formatting is enforced by black (line-length = 88).
+ignore = ["E402", "E501"]

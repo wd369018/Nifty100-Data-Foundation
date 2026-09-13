@@ -1,0 +1,93 @@
+company_id,prior_year,latest_year,prior_pattern,latest_pattern,changed,transition
+ABB,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ADANIENSOL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ADANIENT,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+ADANIGREEN,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+ADANIPORTS,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ADANIPOWER,2024-03,2024-09,Liquidating Assets,Cash Accumulator,True,Liquidating Assets -> Cash Accumulator
+AMBUJACEM,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+APOLLOHOSP,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ASIANPAINT,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ATGL,2024-03,2024-09,Cash Accumulator,Cash Accumulator,False,Cash Accumulator -> Cash Accumulator
+AXISBANK,2023-03,2024-03,Mixed,Growth Funded by Debt,True,Mixed -> Growth Funded by Debt
+BAJAJ-AUTO,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+BAJAJFINSV,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+BAJAJHLDNG,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+BAJFINANCE,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+BANKBARODA,2023-03,2024-03,Pre-Revenue,Growth Funded by Debt,True,Pre-Revenue -> Growth Funded by Debt
+BEL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+BHARTIARTL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+BHEL,2024-03,2024-09,Distress Signal,Cash Accumulator,True,Distress Signal -> Cash Accumulator
+BOSCHLTD,2024-03,2024-09,Liquidating Assets,Cash Accumulator,True,Liquidating Assets -> Cash Accumulator
+BPCL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+BRITANNIA,2024-03,2024-09,Liquidating Assets,Cash Accumulator,True,Liquidating Assets -> Cash Accumulator
+CANBK,2023-03,2024-03,Growth Funded by Debt,Reinvestor,True,Growth Funded by Debt -> Reinvestor
+CHOLAFIN,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+CIPLA,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+COALINDIA,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+DABUR,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+DIVISLAB,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+DLF,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+DMART,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+DRREDDY,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+EICHERMOT,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+GAIL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+GODREJCP,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+GRASIM,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+HAL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+HAVELLS,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+HCLTECH,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+HDFCBANK,2023-03,2024-03,Mixed,Liquidating Assets,True,Mixed -> Liquidating Assets
+HDFCLIFE,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+HEROMOTOCO,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+HINDALCO,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+HINDUNILVR,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ICICIBANK,2023-03,2024-03,Growth Funded by Debt,Mixed,True,Growth Funded by Debt -> Mixed
+ICICIGI,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ICICIPRULI,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+INDIGO,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+INDUSINDBK,2023-03,2024-03,Growth Funded by Debt,Pre-Revenue,True,Growth Funded by Debt -> Pre-Revenue
+INFY,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+IOC,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+IRCTC,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+IRFC,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ITC,2024-03,2024-09,Liquidating Assets,Cash Accumulator,True,Liquidating Assets -> Cash Accumulator
+JINDALSTEL,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+JIOFIN,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+JSWENERGY,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+JSWSTEEL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+KOTAKBANK,2023-03,2024-03,Growth Funded by Debt,Mixed,True,Growth Funded by Debt -> Mixed
+LICI,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+LODHA,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+LT,2024-03,2024-09,Liquidating Assets,Cash Accumulator,True,Liquidating Assets -> Cash Accumulator
+LTIM,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+M&M,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+MARUTI,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+MOTHERSON,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+NAUKRI,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+NESTLEIND,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+NHPC,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+NTPC,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+ONGC,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+PFC,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+PIDILITIND,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+PNB,2023-03,2024-03,Mixed,Growth Funded by Debt,True,Mixed -> Growth Funded by Debt
+POWERGRID,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+RECLTD,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+RELIANCE,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+SBILIFE,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+SBIN,2023-03,2024-03,Growth Funded by Debt,Reinvestor,True,Growth Funded by Debt -> Reinvestor
+SHREECEM,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+SHRIRAMFIN,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator
+SIEMENS,2023-09,2024-09,Reinvestor,Reinvestor,False,Reinvestor -> Reinvestor
+SUNPHARMA,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TATACONSUM,2024-03,2024-09,Mixed,Cash Accumulator,True,Mixed -> Cash Accumulator
+TATAMOTORS,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TATAPOWER,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TATASTEEL,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TCS,2024-03,2024-09,Liquidating Assets,Cash Accumulator,True,Liquidating Assets -> Cash Accumulator
+TECHM,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TITAN,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TORNTPHARM,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TRENT,2024-03,2024-09,Reinvestor,Cash Accumulator,True,Reinvestor -> Cash Accumulator
+TVSMOTOR,2024-03,2024-09,Growth Funded by Debt,Cash Accumulator,True,Growth Funded by Debt -> Cash Accumulator

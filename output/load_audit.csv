@@ -1,0 +1,13 @@
+table_name,source_file,source_rows,loaded_rows,rejected_rows,db_row_count,status
+companies,1788501606103-7177b6c2-companies.xlsx,92,92,0,92,OK
+sectors,1788501621129-8684701e-sectors.xlsx,92,92,0,92,OK
+profitandloss,1788501607124-aad40f4f-profitandloss.xlsx,1276,1057,203,1057,OK
+balancesheet,1788501604829-ac8c0874-balancesheet.xlsx,1312,1140,85,1140,OK
+cashflow,1788501605758-8e951681-cashflow.xlsx,1187,1056,96,1056,OK
+analysis,1788501604303-57986a9b-analysis.xlsx,20,16,4,16,OK
+documents,1788501606362-ba899c04-documents.xlsx,1585,1456,128,1456,OK
+prosandcons,1788501607452-d6bbe55b-prosandcons.xlsx,16,14,2,14,OK
+financial_ratios,1788501620089-fb3ae469-financial_ratios.xlsx,1184,1041,24,1041,OK
+market_cap,1788501620397-69ae3e7f-market_cap.xlsx,552,552,0,552,OK
+peer_groups,1788501620796-5060f580-peer_groups.xlsx,56,56,0,56,OK
+stock_prices,1788501621395-a51977cd-stock_prices.xlsx,5520,5520,0,5520,OK

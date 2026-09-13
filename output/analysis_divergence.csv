@@ -1,0 +1,2 @@
+company_id,metric_type,period_years,parsed_pct,computed_pct,abs_diff_pct
+INFY,compounded_sales_growth,3,5.0,15.22,10.22

@@ -1,0 +1,412 @@
+{
+  "info": {
+    "name": "Nifty100 Data Foundation API",
+    "version": "0.6.0",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Companies",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies"
+          ],
+          "query": [
+            {
+              "key": "sector",
+              "value": ""
+            },
+            {
+              "key": "market_cap_category",
+              "value": ""
+            },
+            {
+              "key": "search",
+              "value": ""
+            }
+          ]
+        },
+        "description": "List Companies"
+      }
+    },
+    {
+      "name": "Company Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}"
+          ],
+          "query": []
+        },
+        "description": "Company Profile"
+      }
+    },
+    {
+      "name": "Company Bs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}/bs",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}",
+            "bs"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": ""
+            },
+            {
+              "key": "to_year",
+              "value": ""
+            }
+          ]
+        },
+        "description": "Company Bs"
+      }
+    },
+    {
+      "name": "Company Cashflow",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}/cashflow",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}",
+            "cashflow"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": ""
+            },
+            {
+              "key": "to_year",
+              "value": ""
+            }
+          ]
+        },
+        "description": "Company Cashflow"
+      }
+    },
+    {
+      "name": "Company Documents",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}/documents",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}",
+            "documents"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": ""
+            }
+          ]
+        },
+        "description": "Company Documents"
+      }
+    },
+    {
+      "name": "Peers Compare",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}/peers/compare",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}",
+            "peers",
+            "compare"
+          ],
+          "query": []
+        },
+        "description": "Peers Compare"
+      }
+    },
+    {
+      "name": "Company Pl",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}/pl",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}",
+            "pl"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": ""
+            },
+            {
+              "key": "to_year",
+              "value": ""
+            }
+          ]
+        },
+        "description": "Company Pl"
+      }
+    },
+    {
+      "name": "Company Ratios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}/ratios",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}",
+            "ratios"
+          ],
+          "query": [
+            {
+              "key": "year",
+              "value": ""
+            }
+          ]
+        },
+        "description": "Company Ratios"
+      }
+    },
+    {
+      "name": "Company Tearsheet",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/companies/{ticker}/tearsheet",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "companies",
+            "{ticker}",
+            "tearsheet"
+          ],
+          "query": []
+        },
+        "description": "Company Tearsheet"
+      }
+    },
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "health"
+          ],
+          "query": []
+        },
+        "description": "Health"
+      }
+    },
+    {
+      "name": "Market Cap History",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/market-cap/{ticker}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "market-cap",
+            "{ticker}"
+          ],
+          "query": [
+            {
+              "key": "from_year",
+              "value": ""
+            },
+            {
+              "key": "to_year",
+              "value": ""
+            }
+          ]
+        },
+        "description": "Market Cap History"
+      }
+    },
+    {
+      "name": "Peers In Group",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/peers/{group_name}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "peers",
+            "{group_name}"
+          ],
+          "query": []
+        },
+        "description": "Peers In Group"
+      }
+    },
+    {
+      "name": "Portfolio Stats Endpoint",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/portfolio/stats",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "portfolio",
+            "stats"
+          ],
+          "query": []
+        },
+        "description": "Portfolio Stats Endpoint"
+      }
+    },
+    {
+      "name": "Screener",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/screener",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "screener"
+          ],
+          "query": [
+            {
+              "key": "min_roe",
+              "value": ""
+            },
+            {
+              "key": "max_de",
+              "value": ""
+            },
+            {
+              "key": "min_fcf",
+              "value": ""
+            },
+            {
+              "key": "sector",
+              "value": ""
+            },
+            {
+              "key": "min_rev_cagr_5yr",
+              "value": ""
+            },
+            {
+              "key": "min_pat_cagr_5yr",
+              "value": ""
+            },
+            {
+              "key": "max_pe",
+              "value": ""
+            }
+          ]
+        },
+        "description": "Screener"
+      }
+    },
+    {
+      "name": "List Sectors",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/sectors",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "sectors"
+          ],
+          "query": []
+        },
+        "description": "List Sectors"
+      }
+    },
+    {
+      "name": "Sector Companies",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/sectors/{sector}/companies",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "sectors",
+            "{sector}",
+            "companies"
+          ],
+          "query": []
+        },
+        "description": "Sector Companies"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000/api/v1"
+    }
+  ]
+}

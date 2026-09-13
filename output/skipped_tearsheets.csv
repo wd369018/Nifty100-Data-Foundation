@@ -1,0 +1,5 @@
+company_id,skip_reason
+ATGL,insufficient balance sheet / cash flow data
+JIOFIN,only 2 years of P&L data (< 3)
+PNB,only 0 years of P&L data (< 3)
+SBIN,insufficient balance sheet / cash flow data
